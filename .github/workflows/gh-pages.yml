@@ -23,6 +23,13 @@ jobs:
       pages: write
       id-token: write
     steps:
+      - name: Set Up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '20.x'
+      - name: Set Up vega CLI
+        run: |
+          npm install -g vega-lite vega-cli canvas
       - id: deployment
         uses: sphinx-notes/pages@v3
         with:
