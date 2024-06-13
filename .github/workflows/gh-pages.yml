@@ -3,7 +3,7 @@ name: Publish Github Pages
 on:
   push:
     branches: [master]
-  pull_requests:
+  pull_request:
     branches: [master]
 
 # Cancel any in-progress job or run
