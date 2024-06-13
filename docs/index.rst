@@ -10,6 +10,7 @@ API documentation: https://developer.onecodex.com/
    :caption: Contents:
 
    models
+   notebooks
 
 
 Indices and tables
