@@ -1,4 +1,4 @@
 sphinx
 nbsphinx
 sphinx-rtd-theme
--e ..[all,reports]
+-e .[all,reports]
