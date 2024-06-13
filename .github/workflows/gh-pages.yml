@@ -30,6 +30,10 @@ jobs:
       - name: Set Up vega CLI
         run: |
           npm install -g vega-lite vega-cli canvas
+      - name: Install pandoc
+        uses: awalsh128/cache-apt-pkgs-action@master
+        with:
+          packages: pandoc
       - id: deployment
         uses: sphinx-notes/pages@v3
         with:
