@@ -26,7 +26,7 @@ jobs:
     - run: |
         sudo locale-gen en_US.UTF-8
         sudo update-locale
-    - if github.ref == 'refs/heads/master'
+    - if: github.ref == 'refs/heads/master'
       id: deployment
       uses: sphinx-notes/pages@v3
       with:
