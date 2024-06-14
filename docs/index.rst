@@ -5,10 +5,16 @@ One Code Python Client Library
 Introduction
 ============
 
+This package provides 3 major pieces of functionality: (1) a core Python client
+library; (2) a simple CLI for interacting with the `One Codex platform
+<https://onecodex.com>`_ that uses that core library; and (3) optional
+extensions to the client library, which offers many features aimed at advanced
+users and provides functionality for use in interactive notebook environments
+(e.g., Jupyter notebooks).
+
 For installation instructions and instructions on using the command-line
 client, see the :doc:`readme_link`. You can find the source code on `GitHub
 <https://github.com/onecodex/onecodex>`_.
-
 
 Quickstart
 ==========
