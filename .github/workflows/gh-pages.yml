@@ -3,8 +3,6 @@ name: Publish Github Pages
 on:
   push:
     branches: [master]
-  pull_request:
-    branches: [master]
 
 # Cancel any in-progress job or run
 # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency
