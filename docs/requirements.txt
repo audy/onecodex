@@ -2,4 +2,4 @@ sphinx
 nbsphinx
 sphinx-rtd-theme
 myst-parser
--e ..[all,reports]
+-e .[all,reports]
