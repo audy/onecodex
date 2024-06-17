@@ -1,5 +1,5 @@
 sphinx
 nbsphinx
-sphinx-rtd-theme
+sphinx-press-theme
 myst-parser
 -e .[all,reports]

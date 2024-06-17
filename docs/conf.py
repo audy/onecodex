@@ -25,15 +25,7 @@ templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "venv"]
 
 html_logo = "_static/one_codex_logo.png"
-
-html_sidebars = {
-    "**": [
-        "globaltoc.html",  # ToC tree, shows all sections and subsections
-        "relations.html",  # Contextual links (previous, next)
-        "sourcelink.html",  # Link to source code
-        "searchbox.html",  # Search box
-    ]
-}
+html_theme = "press"
 
 import sys
 
