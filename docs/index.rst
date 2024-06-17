@@ -24,9 +24,11 @@ client, see the :doc:`readme`. You can find the source code on `GitHub
    :titlesonly:
 
    index
+   ReadMe <readme>
    quickstart
    models
    sample_collection
+   notebooks
 
 Getting Started
 ===============
@@ -48,7 +50,7 @@ Tutorials
 
 For documentation and examples of common uses of the client library including
 interactive data analysis and plotting within Jupyter notebooks see
-:doc:`Notebooks Demo <notebook_examples/notebooks_demo>`.
+:doc:`notebooks`.
 
 CLI
 ===
