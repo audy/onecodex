@@ -1,4 +1,5 @@
 import os
+import datetime
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -9,7 +10,7 @@ import os
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "One Codex"
-copyright = "2024, One Codex"
+copyright = f"{str(datetime.datetime.now().year)}, One Codex"
 author = "One Codex"
 
 # -- General configuration ---------------------------------------------------
