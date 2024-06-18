@@ -26,7 +26,7 @@ client, see the :doc:`readme`. You can find the source code on `GitHub
    index
    ReadMe <readme>
    quickstart
-   models
+   resources
    sample_collection
    notebooks
 
