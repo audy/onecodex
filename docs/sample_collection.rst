@@ -3,11 +3,10 @@ SampleCollection
 ****************
 
 Data export, analysis and visualization functions are all contained within the
-`SampleCollection` module. Data export, analysis and visualization functions
-are all contained within the `SampleCollection` module.
+`SampleCollection` module.
 
-A `SampleCollection` is returned whenever multiple Samples or Analyses are
-returned via the One Codex API using a model:
+A `SampleCollection` is returned whenever multiple Samples returned via the One
+Codex API using a model:
 
 
 .. code-block:: python
@@ -42,7 +41,7 @@ A `SampleCollection` can also be created manually from a list of samples:
 Analysis & Visualization
 ------------------------
 
-`SampleCollection` contains useful tools for data export, analysis,
+``SampleCollection`` contains useful tools for data export, analysis,
 visualization and statistics. See the following sections for more information:
 
 - :doc:`Visualization <visualization>`
