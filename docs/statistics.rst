@@ -1,3 +1,7 @@
+**********
+Statistics
+**********
+
 .. admonition:: See Also
    :class: note
 

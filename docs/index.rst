@@ -23,7 +23,6 @@ client, see the :doc:`readme`. You can find the source code on `GitHub
    :glob:
    :titlesonly:
 
-   index
    ReadMe <readme>
    quickstart
    resources

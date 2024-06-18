@@ -16,7 +16,7 @@ author = "One Codex"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx.ext.autodoc", "nbsphinx", "myst_parser"]
+extensions = ["sphinx.ext.autodoc", "nbsphinx", "myst_parser", "sphinxext_altair.altairplot"]
 
 nbsphinx_execute = "always"
 nbsphinx_allow_errors = True

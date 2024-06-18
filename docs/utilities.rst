@@ -1,3 +1,7 @@
+*********
+Utilities
+*********
+
 .. admonition:: See Also
    :class: note
 
