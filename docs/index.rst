@@ -28,6 +28,10 @@ client, see the :doc:`readme`. You can find the source code on `GitHub
    quickstart
    resources
    sample_collection
+   Visualization <visualization>
+   Statistics <statistics>
+   Utilities <utilities>
+   Taxonomy <taxonomy>
    notebooks
 
 Getting Started

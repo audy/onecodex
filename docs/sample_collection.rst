@@ -1,6 +1,6 @@
-************************
-Analysis & Visualization
-************************
+****************
+SampleCollection
+****************
 
 Data export, analysis and visualization functions are all contained within the
 `SampleCollection` module. Data export, analysis and visualization functions
@@ -39,9 +39,13 @@ A `SampleCollection` can also be created manually from a list of samples:
    samples.to_df()
 
 
-`SampleCollection` Module
--------------------------
+Analysis & Visualization
+------------------------
 
-.. autoclass:: onecodex.models.collection.SampleCollection
-   :members:
-   :show-inheritance:
+`SampleCollection` contains useful tools for data export, analysis,
+visualization and statistics. See the following sections for more information:
+
+- :doc:`Visualization <visualization>`
+- :doc:`Statistics <statistics>`
+- :doc:`Utilities <utilities>`
+- :doc:`Taxonomy <taxonomy>`
