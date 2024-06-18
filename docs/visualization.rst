@@ -1,6 +1,5 @@
-*************
 Visualization
-*************
+-------------
 
 .. admonition:: See Also
    :class: note

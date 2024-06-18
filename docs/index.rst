@@ -17,27 +17,21 @@ client, see the :doc:`readme`. You can find the source code on `GitHub
 <https://github.com/onecodex/onecodex>`_.
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :caption: Contents
-   :hidden:
-   :glob:
    :titlesonly:
+   :hidden:
 
-   ReadMe <readme>
-   quickstart
-   resources
    sample_collection
    Visualization <visualization>
    Statistics <statistics>
-   Utilities <utilities>
    Taxonomy <taxonomy>
+   Models <models>
    notebooks
 
-Getting Started
-===============
 
 Installation
-------------
+============
 
 .. code-block:: bash
 
@@ -48,8 +42,31 @@ Installation
    pip install onecodex[all]
 
 
+Quickstart
+==========
+
+.. altair-plot::
+    :strict:
+
+    import onecodex
+
+    # Instantiate the API (run onecodex login first)
+    ocx = onecodex.Api()
+
+    # Fetch some samples
+    project = ocx.Projects.get("d53ad03b010542e3")
+    samples = ocx.Samples.where(project=project, public=True, limit=10)
+
+    # Generate a Pandas DataFrame from classification results
+    results = samples.to_df()
+
+    # Plot a bar graph
+    # note: return_chart is not needed if using a Jupyter notebook
+    samples.plot_bargraph(return_chart=True)
+
+
 Tutorials
----------
+=========
 
 For documentation and examples of common uses of the client library including
 interactive data analysis and plotting within Jupyter notebooks see

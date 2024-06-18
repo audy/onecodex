@@ -1,78 +1,78 @@
-*********
-Resources
-*********
+Models
+------
 
-Analyses
---------
+``Analyses``
+------------
 
 .. autoclass:: onecodex.models.analysis.Analyses
    :members:
    :show-inheritance:
 
-Alignments
-----------
+``Alignments``
+--------------
+
 .. autoclass:: onecodex.models.analysis.Alignments
    :members:
    :show-inheritance:
 
-Classifications
----------------
+``Classifications``
+-------------------
 
 .. autoclass:: onecodex.models.analysis.Classifications
    :members:
    :show-inheritance:
 
-Panels
-------
+``Panels``
+----------
 
 .. autoclass:: onecodex.models.analysis.Panels
    :members:
    :show-inheritance:
 
-Assets
-------
+``Assets``
+----------
 
 .. autoclass:: onecodex.models.misc.Assets
    :members:
    :show-inheritance:
 
-Documents
----------
+``Documents``
+-------------
 
 .. autoclass:: onecodex.models.misc.Documents
    :members:
    :show-inheritance:
 
-Jobs
-----
+``Jobs``
+--------
 
 .. autoclass:: onecodex.models.misc.Jobs
    :members:
    :show-inheritance:
 
-Projects
---------
+``Projects``
+------------
 
 .. autoclass:: onecodex.models.misc.Projects
    :members:
    :show-inheritance:
 
-Samples
--------
+``Samples``
+-----------
 
 .. autoclass:: onecodex.models.sample.Samples
    :members:
    :show-inheritance:
 
-Tags
-----
+``Tags``
+--------
 
 .. autoclass:: onecodex.models.misc.Tags
    :members:
    :show-inheritance:
 
-Users
------
+``Users``
+---------
 
 .. autoclass:: onecodex.models.misc.Users
    :members:

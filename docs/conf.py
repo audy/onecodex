@@ -25,7 +25,7 @@ templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "venv"]
 
 html_logo = "_static/one_codex_logo.png"
-html_theme = "press"
+html_theme = "sphinx_rtd_theme"
 
 import sys
 

@@ -1,6 +1,6 @@
 sphinx
 nbsphinx
-sphinx-press-theme
+sphinx-rtd-theme
 myst-parser
 sphinxext-altair
 -e .[all,reports]
